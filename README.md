@@ -1,72 +1,140 @@
-# 👋 Olá! Sou Ygor Lisbôa
+# Olá, eu sou o Ygor Lisbôa! 👋
 
-🎓 Estudante de Ciência da Computação na UNICID, com conclusão prevista para dezembro de 2026.
+### AI Engineering | Machine Learning | Data Analytics
 
-💻 Profissional de Dados e Automação, com experiência em Business Intelligence, análise de dados, desenvolvimento de dashboards e automação de processos.
+Sou estudante de **Ciência da Computação na Universidade Cidade de São Paulo (UNICID)**, com previsão de conclusão em dezembro de 2026, e profissional com experiência em análise de dados, Business Intelligence, automação de processos e desenvolvimento de soluções tecnológicas.
 
-🚀 Atualmente, estou aprofundando meus conhecimentos em **Machine Learning, Engenharia de IA, LLMs e desenvolvimento de APIs**, conectando minha experiência com dados à construção de soluções inteligentes.
+Minha trajetória inclui experiências na **Pibernat, Livelo e Wise System**, atuando com análise de indicadores, desenvolvimento de dashboards, automações, SQL, Python e integração de sistemas.
 
-## 🛠️ Tecnologias
+Atualmente, estou direcionando minha carreira para **Engenharia de Inteligência Artificial**, desenvolvendo projetos que conectam Machine Learning, LLMs, APIs e boas práticas de engenharia de software.
 
-**Linguagens:** Python, SQL e JavaScript (Apps Script)
+📍 São Paulo, Brasil
 
-**Dados e BI:** Pandas, NumPy, Looker Studio, Power BI e BigQuery
+🎯 Interesses: AI Engineer, Machine Learning Engineer, Data Science e Data Analytics.
 
-**Machine Learning:** Scikit-learn, Random Forest e avaliação de modelos
-
-**IA Generativa:** Gemini, embeddings, busca semântica e RAG
-
-**Desenvolvimento:** FastAPI, REST APIs, Git, GitHub e Pytest
+---
 
 ## 🚀 Projetos em destaque
 
-### 📊 [AI Demand Forecast](https://github.com/Lisb00a/ai-demand-forecast)
+### 1. AI Demand Forecast — Previsão Inteligente de Demanda
 
-Sistema de previsão de demanda com Python e Machine Learning.
+**Python | Pandas | Scikit-learn | Random Forest | FastAPI | Pytest**
 
-- Engenharia de atributos e validação temporal
-- Comparação entre Random Forest e baseline
-- Redução de aproximadamente 23,8% no MAE em relação ao baseline, utilizando dados sintéticos
-- API FastAPI e testes automatizados
+Sistema de previsão de demanda diária desenvolvido com dados sintéticos, utilizando variáveis de calendário, histórico de pedidos e indicadores operacionais.
 
-### 🧠 [AI Knowledge Assistant](https://github.com/Lisb00a/ai-knowledge-assistant)
+**Principais entregas:**
+- Engenharia de atributos com lags e médias móveis.
+- Treinamento e comparação de modelos preditivos.
+- Validação temporal com TimeSeriesSplit.
+- API REST para previsões.
+- Testes automatizados.
+
+**Resultados experimentais:**
+
+| Modelo | MAE |
+|---|---:|
+| DummyRegressor | 11.59 |
+| Random Forest | 8.83 |
+
+O Random Forest apresentou redução de aproximadamente **23,8% no erro absoluto médio** em relação ao baseline.
+
+🔗 [Acessar projeto](https://github.com/Lisb00a/ai-demand-forecast)
+
+### 2. AI Knowledge Assistant — Assistente Inteligente com RAG
+
+**Python | NLP | Embeddings | Sentence Transformers | Gemini | FastAPI | Pytest**
 
 Assistente de conhecimento baseado em busca semântica e Retrieval-Augmented Generation (RAG).
 
-- Embeddings multilíngues e índice vetorial
-- Integração com Gemini para geração de respostas
-- API REST com FastAPI
-- Testes automatizados
+**Principais entregas:**
+- Geração de embeddings multilíngues.
+- Indexação e recuperação semântica de documentos.
+- Integração com modelo de linguagem Gemini.
+- Geração de respostas fundamentadas em documentos recuperados.
+- Validação de referências e tratamento de erros.
+- API REST com endpoint de perguntas e respostas.
+- Testes automatizados e GitHub Actions.
 
-### ⚙️ [AI Decision Engine](https://github.com/Lisb00a/ai-decision-engine)
+O projeto demonstra a construção de um pipeline de recuperação de informação integrado a um LLM.
 
-Sistema de apoio à decisão para análise de riscos de atraso em entregas.
+🔗 [Acessar projeto](https://github.com/Lisb00a/ai-knowledge-assistant)
 
-- Classificação com Random Forest
-- Comparação com baseline e avaliação de métricas
-- Motor híbrido de Machine Learning e regras de negócio
-- API FastAPI e testes automatizados
-- Dados sintéticos para demonstração
+### 3. AI Decision Engine — Motor Inteligente de Decisão
+
+**Python | Random Forest | Scikit-learn | Business Rules | FastAPI | Pytest | CI/CD**
+
+Sistema híbrido para classificação de riscos de atraso em entregas logísticas.
+
+**Principais entregas:**
+- Geração e validação de dados sintéticos.
+- Treinamento de modelo Random Forest.
+- Seleção de threshold por F1-score.
+- Combinação de Machine Learning com regras de negócio.
+- Recomendações automáticas baseadas em risco.
+- API REST com validação de entradas.
+- 37 testes automatizados e integração contínua.
+
+**Resultados experimentais:**
+
+| Métrica | Resultado |
+|---|---:|
+| Accuracy | 70% |
+| Precision | 51,14% |
+| Recall | 72,58% |
+| F1-score | 60% |
+| ROC-AUC | 80,08% |
+
+O modelo identificou 45 dos 62 atrasos simulados no conjunto de teste.
+
+🔗 [Acessar projeto](https://github.com/Lisb00a/ai-decision-engine)
+
+---
+
+## 🛠️ Tecnologias e ferramentas
+
+**Linguagens:** Python, SQL e JavaScript.
+
+**Machine Learning e IA:** Scikit-learn, Pandas, NumPy, Sentence Transformers, Embeddings, RAG e integração com LLMs.
+
+**Backend e APIs:** FastAPI, Pydantic e APIs REST.
+
+**Dados e BI:** BigQuery, SQL Server, Looker Studio, Power BI, Excel e Google Sheets.
+
+**Automação:** Google Apps Script e Python.
+
+**Engenharia de software:** Git, GitHub, Pytest, GitHub Actions e ambientes virtuais.
+
+---
 
 ## 💼 Experiência profissional
 
-**Pibernat — Dados e Automação**
+### Pibernat — Dados e Automação
 
-Atuação com Python, SQL, dashboards, automações e soluções de BI para apoiar processos operacionais e decisões de negócio.
+Atuação com desenvolvimento de dashboards, automações, consultas SQL, integração de bases e soluções em Python para acompanhamento de indicadores e processos operacionais.
 
-**Livelo — Growth, Dados e Projetos**
+### Livelo — Growth, Analytics e Projetos
 
-Experiência com indicadores de produtos digitais, análise de performance, dashboards, acompanhamento de resultados e iniciativas de Growth.
+Experiência com análise de indicadores de produtos digitais, acompanhamento de performance, construção de dashboards, análises de campanhas e apoio à tomada de decisão orientada por dados.
 
-**Wise System — Tecnologia da Informação**
+### Wise System — Tecnologia da Informação
 
-Experiência com sistemas corporativos, implantação, suporte técnico e relacionamento com usuários.
+Experiência com implantação e suporte de sistemas ERP, parametrizações, atendimento a usuários e apoio à resolução de problemas técnicos.
 
-## 🎯 Objetivo
+---
 
-Evoluir profissionalmente nas áreas de **Engenharia de IA, Machine Learning e Dados**, desenvolvendo soluções que conectem tecnologia, inteligência e resultados de negócio.
+## 🎯 Objetivo profissional
 
-## 🔗 Contato
+Meu objetivo é atuar no desenvolvimento de soluções de Inteligência Artificial que resolvam problemas reais, combinando modelos preditivos, aplicações com LLMs, engenharia de software e análise de dados.
 
-- **GitHub:** https://github.com/Lisb00a
+Busco oportunidades em que possa continuar evoluindo tecnicamente e contribuir com produtos e decisões orientados por tecnologia.
+
+---
+
+## 📫 Contato
+
+- **GitHub:** [github.com/Lisb00a](https://github.com/Lisb00a)
 - **Localização:** São Paulo, Brasil
+
+---
+
+*Os resultados dos projetos apresentados são experimentais e utilizam dados sintéticos ou bases demonstrativas, conforme documentado em cada repositório.*
